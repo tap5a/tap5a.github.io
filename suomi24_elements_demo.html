@@ -1,19 +1,46 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <link type="text/css" rel="stylesheet" ref="stylesheet.css">
-        <title>Tapsan Katsomo iframe testi</title>
+    <meta charset="UTF-8">
+    <title>Suomi 24 ja MTV:n "random player"</title>
+    <style>
+		body {
+			font-family: Helvetica;
+			line-height: 1.5em;
+			padding: 1em;
+            max-width: 854px;
+		}
+        p {
+            font-family: Helvetica;
+            font-size: small;
+        }
+        p.koodi{
+            font-family: Helvetica;
+            font-size: small;
+            background-color: #e3e3e3;
+            padding: 5px 8px 5px 8px;
+        }
+    </style>    
     </head>
+
 <body>
-    <h1>Tapsan Katsomo iframe testi</h1>
 
-<!-- newest embed -->
-<div style="position: relative;padding-bottom: 56.25%;height: 0;margin: 0px 0;overflow: hidden;background-color: #FFF">
-<iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" src="http://www.katsomo.fi/multimedia/verkostoplayer/newestvideo.html?categoryId=0" scrolling="no" frameborder="0" allowfullscreen></iframe></div>
-<!-- /newest embed -->
+<h2>Suomi 24 ja MTV:n "random playerin" upotuskoodit</h2>
+<h4>Random playerin logiikka</h4>
 
+<p>1. Hakee 30kpl videoita valitusta kategoriasta.<br/>2. Suodattaa klipit aikajärjestyksen ja poimii talteen 3 uusinta.<br/>3. Suodattaa jäljelle jääneet katselumäärien mukaan ja poimii talteen 3 katsotuinta.<br/>4. Arpoo kuudesta valitusta videosta ensimmäiseksi näytettävän videon.</p>
+<p>Nappi "näytä toinen video" siirtää seuraavaan videoon. 
+Viimeisestä klipistä siirrytään takaisin ensimmäiseen videoon. </p>
+
+<h4>Upotuskoodi - Suomi 24 > Keskustelu24 > Urheilu ja kuntoilu<br/>Katsomo kategoria 33002 > </h4> 
+
+<p class="koodi">&lt;div style="position: relative;padding-bottom: 62.5%;height: 0;margin: 0px 0;overflow: hidden;background-color: #FFF"&gt;<br />
+&lt;iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" src="http://www.katsomo.fi/multimedia/verkostoplayer/randomplayer.html?categoryId=33002" scrolling="no" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;<br/>&lt;/div&gt;</p>
+  
+  
 <!-- random embed -->
 <div style="position: relative;padding-bottom: 62.5%;height: 0;margin: 0px 0;overflow: hidden;background-color: #FFF">
-<iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" src="http://www.katsomo.fi/multimedia/verkostoplayer/randomplayer.html?categoryId=0" scrolling="no" frameborder="0" allowfullscreen></iframe></div>
+<iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" src="http://www.katsomo.fi/multimedia/verkostoplayer/randomplayer.html?categoryId=33002" scrolling="no" frameborder="0" allowfullscreen></iframe></div>
 <!-- /random embed -->
 
 </body>
