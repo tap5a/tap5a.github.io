@@ -2,14 +2,13 @@
 <html>
     <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Suomi 24 ja MTV:n "random player"</title>
     <style>
 		body {
 			font-family: Helvetica;
 			line-height: 1.5em;
-			padding: 1em;
-/           max-width: 854px;
+			padding: 1.5em;
+            max-width: 640px;
 		}
         p {
             font-family: Helvetica;
@@ -21,28 +20,106 @@
             background-color: #e3e3e3;
             padding: 5px 8px 5px 8px;
         }
+        span.red{
+            color: #ff0000;
+        }
+        div.boksi {
+            margin: 30px 0px 30px 0px;
+            border: solid #cecece 1px;
+            padding: 15px 15px 33px 15px;
+            border-radius: 10px;
+            box-shadow: 0px 2px 8px #bababa; 
+        }
+        
     </style>    
     </head>
 
 <body>
 
+
 <h2>Suomi 24 ja MTV:n "random playerin" upotuskoodit</h2>
 <h4>Random playerin logiikka</h4>
 
-<p>1. Hakee 30kpl videoita valitusta kategoriasta.<br/>2. Suodattaa klipit aikajärjestyksen ja poimii talteen 3 uusinta.<br/>3. Suodattaa jäljelle jääneet katselumäärien mukaan ja poimii talteen 3 katsotuinta.<br/>4. Arpoo kuudesta valitusta videosta ensimmäiseksi näytettävän videon.</p>
-<p>Nappi "näytä toinen video" siirtää seuraavaan videoon. 
-Viimeisestä klipistä siirrytään takaisin ensimmäiseen videoon. </p>
+<ol>
+  <li>Hakee 30kpl videoita valitusta kategoriasta.</li>
+   <li>Suodattaa klipit aikajärjestyksen ja poimii talteen 3 uusinta.</li>
+   <li>Suodattaa jäljelle jääneet katselumäärien mukaan ja poimii talteen 3 katsotuinta.</li>
+   <li>Arpoo kuudesta valitusta videosta ensimmäiseksi näytettävän videon.</li>
+</ol>
+<ul>
+    <li>Nappi "näytä toinen video" siirtää seuraavaan videoon. Viimeisestä klipistä siirrytään takaisin ensimmäiseen videoon.</li>
+</ul>
 
-<h4>Upotuskoodi - Suomi 24 > Keskustelu24 > Urheilu ja kuntoilu<br/>Katsomo kategoria 33002 > </h4> 
+
+
+<div class="boksi">
+<h4>Suomi 24 > Keskustelu24 > Urheilu ja kuntoilu<br/>
+Upotuskoodi käyttäen Katsomon kategoriaa 33002 (Urheilu)</h4> 
 
 <p class="koodi">&lt;div style="position: relative;padding-bottom: 62.5%;height: 0;margin: 0px 0;overflow: hidden;background-color: #FFF"&gt;<br />
-&lt;iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" src="http://www.katsomo.fi/multimedia/verkostoplayer/randomplayer.html?categoryId=33002" scrolling="no" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;<br/>&lt;/div&gt;</p>
-  
+&lt;iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" src="http://www.katsomo.fi/multimedia/verkostoplayer/randomplayer.html?categoryId=<span class="red">33002</span>" scrolling="no" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;<br/>&lt;/div&gt;</p>
   
 <!-- random embed -->
 <div style="position: relative;padding-bottom: 62.5%;height: 0;margin: 0px 0;overflow: hidden;background-color: #FFF">
 <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" src="http://www.katsomo.fi/multimedia/verkostoplayer/randomplayer.html?categoryId=33002" scrolling="no" frameborder="0" allowfullscreen></iframe></div>
 <!-- /random embed -->
+</div>
+
+
+<div class="boksi">
+<h4>Suomi 24 > Keskustelu24 > Urheilu ja kuntoilu > Jääkiekko<br/>
+Upotuskoodi käyttäen Katsomon kategoriaa 33002010 (Jääkiekko)</h4> 
+
+<p class="koodi">&lt;div style="position: relative;padding-bottom: 62.5%;height: 0;margin: 0px 0;overflow: hidden;background-color: #FFF"&gt;<br />
+&lt;iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" src="http://www.katsomo.fi/multimedia/verkostoplayer/randomplayer.html?categoryId=<span class="red">33002010</span>" scrolling="no" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;<br/>&lt;/div&gt;</p>
+  
+<!-- random embed -->
+<div style="position: relative;padding-bottom: 62.5%;height: 0;margin: 0px 0;overflow: hidden;background-color: #FFF">
+<iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" src="http://www.katsomo.fi/multimedia/verkostoplayer/randomplayer.html?categoryId=33002010" scrolling="no" frameborder="0" allowfullscreen></iframe></div>
+<!-- /random embed -->
+</div>
+
+
+<div class="boksi">
+<h4>Suomi 24 > Keskustelu24 > Urheilu ja kuntoilu > Moottoriurheilu<br/>
+Upotuskoodi käyttäen Katsomon kategoriaa 33002001 (Formula 1)</h4> 
+
+<p class="koodi">&lt;div style="position: relative;padding-bottom: 62.5%;height: 0;margin: 0px 0;overflow: hidden;background-color: #FFF"&gt;<br />
+&lt;iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" src="http://www.katsomo.fi/multimedia/verkostoplayer/randomplayer.html?categoryId=<span class="red">33002001</span>" scrolling="no" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;<br/>&lt;/div&gt;</p>
+  
+<!-- random embed -->
+<div style="position: relative;padding-bottom: 62.5%;height: 0;margin: 0px 0;overflow: hidden;background-color: #FFF">
+<iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" src="http://www.katsomo.fi/multimedia/verkostoplayer/randomplayer.html?categoryId=33002001" scrolling="no" frameborder="0" allowfullscreen></iframe></div>
+<!-- /random embed -->
+</div>
+
+
+<div class="boksi">
+<h4>Suomi 24 > Keskustelu24 > Urheilu ja kuntoilu > Hiihto ja laskettelu<br/>
+Upotuskoodi käyttäen Katsomon kategoriaa 33002035 (Hiihtolajit)</h4> 
+
+<p class="koodi">&lt;div style="position: relative;padding-bottom: 62.5%;height: 0;margin: 0px 0;overflow: hidden;background-color: #FFF"&gt;<br />
+&lt;iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" src="http://www.katsomo.fi/multimedia/verkostoplayer/randomplayer.html?categoryId=<span class="red">33002035</span>" scrolling="no" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;<br/>&lt;/div&gt;</p>
+  
+<!-- random embed -->
+<div style="position: relative;padding-bottom: 62.5%;height: 0;margin: 0px 0;overflow: hidden;background-color: #FFF">
+<iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" src="http://www.katsomo.fi/multimedia/verkostoplayer/randomplayer.html?categoryId=33002035" scrolling="no" frameborder="0" allowfullscreen></iframe></div>
+<!-- /random embed -->
+</div>
+
+
+<div class="boksi">
+<h4>Suomi 24 > Keskustelu24 > Ryhmät > Ikäryhmät 50-80-plus <br/>
+Upotuskoodi käyttäen Katsomon kategoriaa 33001005 (Studio 55)</h4> 
+
+<p class="koodi">&lt;div style="position: relative;padding-bottom: 62.5%;height: 0;margin: 0px 0;overflow: hidden;background-color: #FFF"&gt;<br />
+&lt;iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" src="http://www.katsomo.fi/multimedia/verkostoplayer/randomplayer.html?categoryId=<span class="red">33001005</span>" scrolling="no" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;<br/>&lt;/div&gt;</p>
+  
+<!-- random embed -->
+<div style="position: relative;padding-bottom: 62.5%;height: 0;margin: 0px 0;overflow: hidden;background-color: #FFF">
+<iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" src="http://www.katsomo.fi/multimedia/verkostoplayer/randomplayer.html?categoryId=33001005" scrolling="no" frameborder="0" allowfullscreen></iframe></div>
+<!-- /random embed -->
+</div>
 
 </body>
 </html>
