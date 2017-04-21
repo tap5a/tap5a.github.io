@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Newestvideo ja Randomplayer widgettien testi</title>
+    <style>
+        body {
+            font-family: Helvetica;
+            line-height: 2em;
+            padding: 0em;
+        }
+        
+        p {
+            font-family: Helvetica;
+            font-size: small;
+        }
+    </style>
+</head>
+
+<body>
+
+   
+<h1>Newestvideo ja Randomplayer widgettien testi</h1>
+    <div>
+        <h4>Randomplayer - CategoryId 33002</h4>
+
+        <div width="100%">
+            <!-- player embed -->
+            <style>
+                .mtv-player {
+                    position: relative;
+                    padding-bottom: 56.25%;
+                    height: 0;
+                    overflow: hidden;
+                    max-width: 100%;
+                }
+                
+                .mtv-player iframe {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+            </style>
+            <div class="mtv-player">
+                <iframe src="https://www.katsomo.fi/multimedia/verkostoplayer/randomplayer.html?categoryId=33002" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        </div>
+            <!-- player embed -->
+        </div>
+        <br>
+        
+        <h4>Newestvideo - CategoryId 33001001</h4>
+        <div style="width:75%;">
+            <!-- player embed -->
+            <style>
+                .mtv-player {
+                    position: relative;
+                    padding-bottom: 56.25%;
+                    height: 0;
+                    overflow: hidden;
+                    max-width: 100%;
+                }
+                
+                .mtv-player iframe {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+            </style>
+            <div class="mtv-player">
+                <iframe src="https://www.katsomo.fi/multimedia/verkostoplayer/newestvideo.html?categoryId=33001001" frameborder="0" scrolling="no" allowfullscreen></iframe>
+            </div>
+            <!-- player embed -->
+        </div>
+    
+    </div>      
+
+</body>
+
+</html>
