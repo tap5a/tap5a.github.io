@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Valve Brainient Test</title>
+    <style>
+        body {
+            font-family: Helvetica;
+            line-height: 2em;
+            padding: 0em;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Valve Brainient Test</h1>
+    <div>
+        <h4>Playerin koko 1280x720</h4>
+        <iframe width="1280" height="720" src="https://www.katsomo.fi/multimedia/verkostoplayer/player.html?assetId=741945&adtag=valve_brainient_test" frameborder="0" scrolling="no" allowfullscreen></iframe>    
+        <br>
+        
+        <h4>Playerin koko 640x360</h4>
+        <iframe width="640" height="360" src="https://www.katsomo.fi/multimedia/verkostoplayer/player.html?assetId=741945&adtag=valve_brainient_test" frameborder="0" scrolling="no" allowfullscreen></iframe>    
+        <br>
+        
+        <h4>Responsiivinen player</h4>
+        <div width="100%">
+            <!-- player embed -->
+            <style>
+                .mtv-player {
+                    position: relative;
+                    padding-bottom: 56.25%;
+                    height: 0;
+                    overflow: hidden;
+                    max-width: 100%;
+                }
+                
+                .mtv-player iframe {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+            </style>
+            <div class="mtv-player">
+                <iframe src="https://www.katsomo.fi/multimedia/verkostoplayer/player.html?assetId=741945&adtag=valve_brainient_test" frameborder="0" scrolling="no" allowfullscreen></iframe>
+            </div>
+        </div>
+        
+    </div>      
+
+</body>
+</html>
