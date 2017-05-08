@@ -1,0 +1,10 @@
+<VAST version="2.0">
+<Ad id="brainient_valve_test">
+<Wrapper>
+<AdSystem>Adform</AdSystem>
+<VASTAdTagURI>
+<![CDATA[https://tag.brainient.com/vast/5117327915876352]]>
+</VASTAdTagURI>
+</Wrapper>
+</Ad>
+</VAST>
