@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MTV Videoverkoston newest video -widgetin demo</title>
+    <style>
+        body {
+            font-family: Helvetica;
+            line-height: 1.5em;
+            padding: 1.5em;
+        }
+        
+        p {
+            font-family: Helvetica;
+            font-size: small;
+        }
+        
+        p.koodi {
+            background-color: #e3e3e3;
+            padding: 5px 8px 5px 8px;
+        }
+        
+        span.red {
+            color: #ff0000;
+        }
+        
+        div.boksi {
+
+            word-wrap: break-word;
+        }
+        
+        div.speksit {
+            font-size: small;
+            background-color: beige;
+            padding: 15px 10px 15px 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>MTV Videoverkoston newest video -widgetin demo</h2>
+
+    <div class="speksit">
+        <b>WIDGETIN LOGIIKKA</b>
+        <br>
+
+            Hakee jokaisella latauskerralla valituista kategorioista (max. 5) uusimman videon ja näyttää sen.
+  
+    </div>
+
+
+    <div class="boksi">
+        <h4>Uusin säälähetys (kategoria: 33001007008 Sää) responsiivisessa playerissä</h4>
+        
+                <div width="100%">
+            <!-- player embed -->
+            <style>
+                .mtv-player {
+                    position: relative;
+                    padding-bottom: 56.25%;
+                    height: 0;
+                    overflow: hidden;
+                    max-width: 100%;
+                }
+                
+                .mtv-player iframe {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+            </style>
+            <div class="mtv-player">
+                <iframe src="https://www.katsomo.fi/multimedia/verkostoplayer/newestvideo.html?categoryId=33001007008" scrolling="no" frameborder="0" allowfullscreen></iframe>
+        </div>
+            <!-- player embed -->
+        </div>
+
+        <p class="koodi"><b>Upotuskoodi:</b>
+            <br>&lt;style&gt;
+            <br> .mtv-player { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
+            <br> .mtv-player iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+            <br> &lt;/style&gt;
+            <br> &lt;div class=&quot;mtv-player&quot;&gt;
+            <br> &lt;iframe src=&quot;https://www.katsomo.fi/multimedia/verkostoplayer/newestvideo.html?categoryId=<span class="red">33001007008</span>&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+            <br> &lt;/div&gt;
+            <br>
+        </p>
+        
+        <h4>Uusin uutislähetys (kategoriat: 33001001 Kymmenen uutiset, 33001008 Seitsemän uutiset, 33001014 Huomenta Suomen Uutiset) responsiivisessa playerissä</h4>
+        
+            <div width="100%">
+            <!-- player embed -->
+            <style>
+                .mtv-player {
+                    position: relative;
+                    padding-bottom: 56.25%;
+                    height: 0;
+                    overflow: hidden;
+                    max-width: 100%;
+                }
+                
+                .mtv-player iframe {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+            </style>
+            <div class="mtv-player">
+                <iframe src="https://www.katsomo.fi/multimedia/verkostoplayer/newestvideo.html?categoryId=33001001,33001008,33001014" scrolling="no" frameborder="0" allowfullscreen></iframe>
+        </div>
+            <!-- player embed -->
+        </div>
+
+        <p class="koodi"><b>Upotuskoodi:</b>
+            <br>&lt;style&gt;
+            <br> .mtv-player { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
+            <br> .mtv-player iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+            <br> &lt;/style&gt;
+            <br> &lt;div class=&quot;mtv-player&quot;&gt;
+            <br> &lt;iframe src=&quot;https://www.katsomo.fi/multimedia/verkostoplayer/newestvideo.html?categoryId=<span class="red">33001001,33001008,33001014</span>&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+            <br> &lt;/div&gt;
+            <br>
+        </p>
+
+
+    </div>    
+</body>
+
+</html>
