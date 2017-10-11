@@ -1,0 +1,60 @@
+
+<html>
+ <head>
+  <title>verkosto.katsomo.fi player</title>
+  <style type="text/css">
+    body { margin: 0; padding: 0; }
+    .katsomo-player img { height: 100%; }
+    .katsomo-player .program-text {
+      bottom: 0 !important;
+    }
+    .katsomo-player .program-text > div {
+      padding: 10px 10px 20px 65px !important;
+      margin: 0 !important;
+    }
+  </style>
+  <script type="text/javascript" src="https://www.katsomo.fi/multimedia/template/js/jquery-core-plugins.js"></script>
+  <script charset="ISO-8859-1" src="https://st.mtv.fi/static/javascripts/external-js/vs.js?20130415"></script>
+  <script type="text/javascript" src="https://www.katsomo.fi/multimedia/nocache/scripts/embed-rockery.js"></script>
+ </head>
+ <body class="verkosto">
+   <div id="player_0" class="playercontainer" style="width: 100%; height: 100%; margin: 0 !important;"></div>
+   <div id="embed_site"></div>
+   <script type="text/javascript">
+      <!--
+         var fileref=document.createElement("link");
+         fileref.setAttribute("rel", "stylesheet");
+         fileref.setAttribute("type", "text/css");
+         fileref.setAttribute("href", "https://st.mtv.fi/mn-static/default/slplayer.css");
+         document.getElementsByTagName("head")[0].appendChild(fileref);
+
+         function queryStringToObject(qs) {
+           var o = {};
+            qs.replace(
+                new RegExp("([^?=&]+)(=([^&]*))?", "g"),
+                function ($0, $1, $2, $3) { o[$1] = $3 == 'false' ? false : $3 == 'true' ? true : $3; }
+            );
+            return o;
+         }
+
+         function getQueryParametersAsObject() {
+           return queryStringToObject(window.location.search);
+         }
+
+         var query = getQueryParametersAsObject();
+         var assetId = query.assetId;
+         var autoPlay = query.autoplay;
+         var muted = query.muted || true;
+         var insertionType = autoPlay ? 'video' : 'still';
+	 var adtag = query.adtag;
+
+	 if (autoPlay) {
+	   SumoPlayer.insert(assetId, 'player_0', { embedded:true, windowLess:true, layout:"Embedded_CompletePlayerStyle2011", context:"verkosto", autoplay: true, adtag: adtag });
+	 } else {
+           SumoPlayer.insert(assetId, 'player_0', { embedded:true, windowLess:true, layout:"Embedded_CompletePlayerStyle2011", context:"verkosto", embedType: "still", adtag: adtag });
+	 }
+
+      //-->
+    </script>
+ </body>
+</html>
